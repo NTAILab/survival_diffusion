@@ -1,0 +1,26 @@
+name: sdpm
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - scikit-survival
+  - lifelines
+  - pytorch
+  - optuna
+  - tqdm
+  - rich
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - scikit-posthocs
+  - pip:
+      - pycox
+      - torchtuples
+      - xgboost
+      - xgbse
